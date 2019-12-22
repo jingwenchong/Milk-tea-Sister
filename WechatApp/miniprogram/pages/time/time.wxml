@@ -1,0 +1,8 @@
+<image class='background-image' src='../images/coffee.png' mode="aspectFill"></image>
+<view class="header1">奶茶懂你心伴你行</view>
+ <selector selectData="{{position}}"></selector>
+ <!-- <view class="input-wrap">
+  <input value="{{inputvalue1}}" bindinput="input1" class="input"></input>
+  <text>：</text>
+  <input value="{{inputvalue2}}" bindinput="input2" class="input"></input>
+</view> -->

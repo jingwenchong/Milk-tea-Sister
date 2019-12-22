@@ -1,0 +1,17 @@
+.header1{
+  color:rgb(118, 72, 226);
+  text-align: center;
+}
+.input-wrap{
+  display:flex;
+
+}
+.input{
+  border:1px solid black;
+  width:100px;
+
+}
+
+.background-image{
+  width:360px;
+}

@@ -1,0 +1,24 @@
+<view class='top-text'> 亲，请选择时间(点）</view>
+
+<!-- 下拉框 -->
+
+<view class='top-selected' bindtap='bindShowMsg'>
+
+  <text>{{grade_name}}</text>
+
+  <image src='../images/jiantou.png'></image>
+
+</view>
+
+<!-- 下拉需要显示的列表 -->
+
+<view class="select_box" wx:if="{{select}}">
+
+  <view wx:for="{{grades}}" wx:key="unique">
+
+    <view class="select_one" bindtap="mySelect" data-name="{{item}}">{{item}}</view>
+
+  </view>
+
+</view>
+<button class="handin" bindtap="upload" url="../index/index">确定</button>

@@ -1,0 +1,39 @@
+.header{
+  color:rgb(252, 129, 150);
+  margin-left:100px;
+}
+.request{
+  
+  margin-top:10px;
+}
+.black{
+  background:rgb(175, 166, 166);
+  color:black;
+
+}
+.brown{
+  background:rgba(56, 181, 235, 0.952);
+  color:brown;
+ 
+ 
+}
+.green{
+  background:rgb(162, 134, 207);
+  color:green;
+  
+}
+.red{
+  background:rgb(183, 241, 188);
+  color:red;
+  
+}
+.a{
+  background:rgba(128, 0, 122, 0.253);
+  color:rgb(0, 102, 255);
+
+}
+.p{
+  width:400px;
+  height:550px;
+
+}

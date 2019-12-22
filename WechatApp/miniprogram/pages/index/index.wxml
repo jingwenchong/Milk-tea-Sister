@@ -1,0 +1,8 @@
+<view class="header">奶茶妹妹伴你身旁</view>
+<button class="a" bindtap="send">一键知冷暖</button>
+<view class="request">想要奶茶妹妹为你做点什么呢</view>
+<navigator class="black" bindtap="choice1" url="../time/time">咖啡</navigator>
+<navigator class="brown" bindtap="choice2" url="../time/time">珍珠奶茶</navigator>
+<navigator class="green" bindtap="choice3" url="../time/time">绿茶</navigator>
+<navigator class="red"   bindtap="choice4" url="../time/time">红茶</navigator>
+<image class="p" src="../images/coffee1.png"></image>
